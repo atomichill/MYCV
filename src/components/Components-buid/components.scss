@@ -1,0 +1,65 @@
+
+    .center {
+        
+        max-width: 1400px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        @media (max-width: 1669px){
+            max-width: 1350px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media (max-width: 1550px){
+            max-width: 1200px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media (max-width: 1400px){
+            max-width: 1000px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media (max-width: 1280px) {
+            max-width: 900px;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+        
+        .scroll {
+            background-color: rgba(225, 225, 225, 0.8);
+            font-family: 'Bebas Neue';
+            font-size: 40px;
+            width: 150px;
+            height: 50px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin: 20px;
+            cursor: pointer;
+            transition: all 0.2s ease-in;
+            &:hover {
+                color: white;
+                box-shadow:0px 0px 30px white;
+                transition: all 0.2s ease-in;
+                width: 170px;
+                height: 50px;
+            }
+        }
+        .scroll_box {
+            display: flex;
+            align-items: flex-start
+        }
+        
+        .me{
+            margin-top: 500px;
+        }
+    }
