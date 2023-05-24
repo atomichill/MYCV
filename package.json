@@ -4,11 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    
     "start": "node main.jsx",
-    "client": "npm run start --prefix client",
-    "server": "nodemon main.jsx",
-    "dev": "vite\"concurrently \"npm run client\" \"npm run server",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
