@@ -11,7 +11,7 @@ function Portfolio () {
                     <a href="mailto:khabazishvili20@gmail.com">khabazishvili20@gmail.com</a>
                 </div>
                 <div className='proj_link'>
-                    project link
+                    <a href="https://the-weather-2w3m.onrender.com/" target="_blank">my project</a>
                 </div>
             </div>
 
