@@ -25,40 +25,43 @@ function About () {
     
     return (
         <div className='about_wrap' id='skills'>
-            <h1>my skills :</h1>
+            <div className='skillcont'>
+                <h1>my skills :</h1>
+            </div>
+            
             <div className='skill_wrap'>
                 <div className='skill_el' onClick={() => dispatch(reactVal())}>
                     <img src={reac} alt='reac' className='skill_img'/>
-                   <p>react</p> 
+                   <p className='text'>react</p> 
                 </div>
                 <div className='skill_el' onClick={() => dispatch(reduxVal())}>
                     <img src={redx} alt="redux" className='skill_img'/>
-                    <p>redux</p>
+                    <p className='text'>redux</p>
                 </div>
                 <div className='skill_el' onClick={() => dispatch(cssVal())}>
                     <img src={css} alt="redux" className='skill_img'/>
                     
-                    <p>css , scss ,sass</p>
+                    <p className='text'>css , scss ,sass</p>
                 </div>
                 <div className='skill_el' onClick={() => dispatch(bootstrapVal())}>
                     <img src={bootstrap} alt="redux" className='skill_img'/>
-                    <p>bootstrap</p>
+                    <p className='text'>bootstrap</p>
                 </div>
                 <div className='skill_el' onClick={() => dispatch(jsVal())}>
                     <img src={js} alt="redux" className='skill_img'/>
-                    <p>javascript ES6+</p>
+                    <p className='text'>javascript ES6+</p>
                 </div>
                 <div className='skill_el' onClick={() => dispatch(gitVal())}>
                     <img src={git} alt="redux" className='skill_img'/>
-                    <p>GIT version controll system</p>
+                    <p className='text'>GIT version controll system</p>
                 </div>
                 <div className='skill_el' onClick={() => dispatch(webVal())}>
                     <img src={web} alt="redux" className='skill_img'/>
-                    <p>webpack</p>
+                    <p className='text'>webpack</p>
                 </div>
                 <div className='skill_el' onClick={() => dispatch(typescriptVal())}>
                     <img src={ts} alt="redux" className='skill_img'/>
-                    <p>typescript</p>
+                    <p className='text'>typescript</p>
                 </div>
                 <p className='various'>i also use various librarys in my work</p>
             </div>

@@ -25,14 +25,29 @@
     .proj_text {
         font-family: 'Bebas Neue';
         font-size: 30px;
-        
+        .text {
+            color: black;
+        }
     }
-    .proj_link {
-        margin-left: 100px;
-
-        .link {
-            font-family: 'Bebas Neue';
-            font-size: 50px;
+    .proj_back {
+        border-radius: 23% 77% 19% 81% / 25% 90% 10% 75% ;
+        background-color: blue;
+        height: 269px;
+        width: 269px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        .proj_link {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            background-color: white;
+            border-radius: 78% 22% 71% 29% / 74% 51% 49% 26% ;
+            height: 269px;
+            width: 269px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .link {
+                font-family: 'Bebas Neue';
+                font-size: 50px;
+            }
         }
     }
 }

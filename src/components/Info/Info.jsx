@@ -31,7 +31,7 @@ function Info () {
             <div className='info_wrap' id='giorgi'>
                 <img src={me} alt="mypic" className='img'/>
                 <div className='text_content'>  
-                    <p>{text}</p>
+                    <p className='text'>{text}</p>
                 </div>
             </div>
 

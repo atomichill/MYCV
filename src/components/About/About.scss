@@ -1,11 +1,29 @@
 .about_wrap{
-    h1 {
-        margin-left: 100px;
-        font-family: 'Bebas Neue';
-        @media (max-width: 1024px) {
-            font-size: 40px;
-            margin-left: 55px;
-            
+    .skillcont {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        background-color: blue;
+        height: 269px;
+        width: 369px;
+        border-radius: 46% 54% 33% 67% / 67% 76% 24% 33% ;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        h1 {
+            border-radius:68% 32% 33% 67% / 67% 76% 24% 33% ;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            height: 269px;
+            width: 269px;
+            background-color: white;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            font-family: 'Bebas Neue';
+            color: black;
+            @media (max-width: 1024px) {
+                font-size: 40px;
+                margin-left: 55px;
+                
+            }
         }
     }
     border-radius: 25px;
@@ -53,6 +71,7 @@
         .various {
             margin-top: 20px;
             font-family: 'Bebas Neue';
+            color: black;
         }
         .skill_el {
             display: flex;
@@ -62,6 +81,9 @@
             @media (max-width: 1024px) {
                 margin-top: 10px;
                 
+            }
+            .text {
+                color: black;
             }
             
             .skill_img {
