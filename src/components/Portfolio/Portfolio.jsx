@@ -12,7 +12,7 @@ function Portfolio () {
                 </div>
                 <div className='proj_back'>
                     <div className='proj_link'>
-                        <a href="https://the-weather-2w3m.onrender.com/" className='link' rel="noopener noreferrer">my project</a>
+                        <a href="https://the-weather-2w3m.onrender.com/" className='link' rel="noopener noreferrer" target='_blank'>my project</a>
                     </div>
                 </div>
             </div>
